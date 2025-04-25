@@ -17,12 +17,12 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className='bg-[#111827] text-[#FFF]  w-full text-center'>
-                    <h2 className="text-3xl mt-24 mb-4">Follow US</h2>
-                    <p className='mb-5'>Join us on social media</p>
+                    <h2 className="text-3xl mt-24 mb-4 hover:scale-125 transition-transform">Follow Us</h2>
+                    <p className='mb-5 hover:scale-150 transition-transform'>Join us on social media</p>
                     <div className="flex justify-center gap-8">
-                        <a href=""><FaFacebookF className='h-9 w-9' /></a>
-                        <a href=""><FaInstagram className='h-9 w-9'/></a>
-                        <a href=""><FaTwitter className='h-9 w-9'/></a>
+                        <a href=""><FaFacebookF className='h-9 w-9 hover:scale-125 transition-transform ' /></a>
+                        <a href=""><FaInstagram className='h-9 w-9 hover:scale-125 transition-transform '/></a>
+                        <a href=""><FaTwitter className='h-9 w-9 hover:scale-125 transition-transform'/></a>
                     </div>
                 </div>
             </div>
