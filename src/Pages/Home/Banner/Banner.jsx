@@ -11,27 +11,30 @@ import banner06 from '../../../../src/assets/home/banner06.png'
 
 const Banner = () => {
     return (
-        <Carousel>
-            <div>
-                <img src={banner01} />
-            </div>
-            <div>
-                <img src={banner02} />
-            </div>
-            <div>
-                <img src={banner03} />
-            </div>
-            <div>
-                <img src={banner04} />
-            </div>
-            <div>
-                <img src={banner05} />
-            </div>
-            <div>
-                <img src={banner06} />
-            </div>
-            
-        </Carousel>
+        <div >
+
+            <Carousel>
+                <div>
+                    <img src={banner01} />
+                </div>
+                <div>
+                    <img src={banner02} />
+                </div>
+                <div>
+                    <img src={banner03} />
+                </div>
+                <div>
+                    <img src={banner04} />
+                </div>
+                <div>
+                    <img src={banner05} />
+                </div>
+                <div>
+                    <img src={banner06} />
+                </div>
+
+            </Carousel>
+        </div>
     )
 }
 

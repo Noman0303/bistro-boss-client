@@ -28,13 +28,13 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className='ml-4'>
-                    <h2 className='font-cinzel text-white text-3xl font-extrabold'>BISTRO BOSS</h2>
+                    <h2 className='font-cinzel text-white text-2xl md:text-3xl font-extrabold'>BISTRO BOSS</h2>
                     <p className='font-cinzel text-white text-2xl font-medium tracking-[9.12px]'>Restaurant</p>
                 </div>
 
             </div>
-            <div className="navbar-end hidden lg:flex items-end">
-                <ul className="menu menu-horizontal px-1 text-white font-semibold space-x-2">
+            <div className="navbar-end hidden lg:flex ">
+                <ul className="menu menu-horizontal px-1 text-white font-semibold ">
                     {navlinks}
                 </ul>
                 <button className="btn btn-ghost btn-xs sm:btn-sm md:btn-md lg:btn-lg text-white text- ">SIGN IN</button>
