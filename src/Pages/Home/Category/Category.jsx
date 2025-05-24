@@ -19,6 +19,7 @@ import slide5 from '../../../assets/home/slide5.jpg'
 import SectionTitle from '../../../components/SectionTitle/SectionTitle';
 
 
+
 const Category = () => {
     return (
         <div>
