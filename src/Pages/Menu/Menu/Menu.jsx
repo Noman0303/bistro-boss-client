@@ -41,15 +41,12 @@ const Menu = () => {
             ></SectionTitle>
             <MenuCategory
                 items={todayOffer}
-                buttonDetails={"ORDER YOUR FAVOURITE FOOD"}
+                buttonDetails={"ORDER YOUR FAVORITE FOOD"}
             ></MenuCategory>
 
             {/* Dessert Items */}
 
-            <MenuCategory
-                coverImg={dessertImg}
-                items={dessert}
-                coverHeading={"Dessert"}
+            <MenuCategory coverImg={dessertImg} items={dessert} coverHeading={"dessert"}
                 coverParagraph={"Delight in our irresistible desserts, crafted with premium ingredients for a perfect blend of flavor and sweetness"}
                 buttonDetails={"ORDER YOUR FAVORITE FOOD"}
             ></MenuCategory>
@@ -57,9 +54,7 @@ const Menu = () => {
             {/* Pizza Items */}
 
             <MenuCategory
-                coverImg={pizzaImg}
-                items={pizza}
-                coverHeading={"Pizza"}
+                coverImg={pizzaImg} items={pizza} coverHeading={"pizza"}
                 coverParagraph={"Enjoy our delicious pizzas, made with fresh ingredients and a perfect balance of flavors in every bite"}
                 buttonDetails={"ORDER YOUR FAVORITE FOOD"}
             ></MenuCategory>
@@ -67,9 +62,7 @@ const Menu = () => {
             {/* Salad Items */}
 
             <MenuCategory
-                coverImg={saladImg}
-                items={salad}
-                coverHeading={"Salad"}
+                coverImg={saladImg} items={salad} coverHeading={"salad"}
                 coverParagraph={"Savor our crisp and refreshing salads, packed with vibrant greens, wholesome toppings, and flavorful dressings"}
                 buttonDetails={"ORDER YOUR FAVORITE FOOD"}
             ></MenuCategory>
@@ -77,13 +70,10 @@ const Menu = () => {
             {/* Soup Items */}
 
             <MenuCategory
-                coverImg={soupImg}
-                items={soup}
-                coverHeading={"Soup"}
+                coverImg={soupImg} items={soup} coverHeading={"soup"}
                 coverParagraph={"Warm up with our comforting soups, crafted with rich flavors and fresh ingredients for a soothing experience."}
                 buttonDetails={"ORDER YOUR FAVORITE FOOD"}
             ></MenuCategory>
-
 
         </div>
     );
